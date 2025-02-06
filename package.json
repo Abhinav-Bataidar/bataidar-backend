@@ -1,14 +1,13 @@
 {
   "name": "bataidar-backend",
   "version": "1.0.0",
+  "description": "Backend for Bataidar platform",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "aws-sdk": "^2.1692.0",
     "bcryptjs": "^2.4.3",
@@ -22,5 +21,15 @@
     "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.5"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
+
